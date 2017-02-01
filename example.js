@@ -83,7 +83,7 @@ var zinio_service = zinio.connect({mode: api_mode});
 var params = {
     "access_token": "....", //returned from user_authorization
     "amount": 19.99,
-    "quantity": 1,
+    "quantity": 1, // >1 for subscription if multiple issues available
     "client_id": ".....",
     "client_secret": ".....",
     "user_id": "....",//returned from user_authorization
